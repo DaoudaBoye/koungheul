@@ -13,11 +13,24 @@
 
 /*form styles*/
 #msform {
-	width: 400px;
+	display: flex;
+	justify-content: center;
+	width: 500px;
+	margin: 50px auto;
+	text-align: center
+	
+}
+.prog ul{
+	display: flex;
+	justify-content: center;
 	margin: 50px auto;
 	text-align: center;
 	position: relative;
+	width: 500px;
+	font-weight: bold;
 }
+
+
 #msform fieldset {
 	background: white;
 	border: 0 none;
@@ -80,7 +93,7 @@
 
 .inp{
 
-	height: 5px;
+	height: 50px;
 }
 /*progressbar*/
 #progressbar {
@@ -132,3 +145,53 @@
 	color:white;
 }
 
+/* Styles pour les mobiles */
+@media (max-width: 767px) {
+	#msform {
+		width: 400px;
+		margin: 50px auto;
+		text-align: center;
+		position: relative;
+	}
+
+	.prog ul{
+		display: flex;
+		justify-content: center;
+		margin: 50px auto;
+		text-align: center;
+		position: relative;
+		width: 400px;
+		font-weight: bold;
+	}
+  /* Alignement vertical des éléments */
+  .fs-title,
+  .fs-subtitle,
+  .inp,
+  .action-button {
+    text-align: center;
+  }
+  
+  /* Largeur des champs de saisie */
+  .inp {
+    width: 100%;
+  }
+  
+  /* Espacement des éléments */
+  #progressbar li {
+    margin-bottom: 10px;
+  }
+  
+  /* Taille du texte */
+  .fs-title {
+    font-size: 20px;
+  }
+  
+  .fs-subtitle {
+    font-size: 16px;
+  }
+  
+  .action-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}

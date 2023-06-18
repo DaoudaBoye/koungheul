@@ -334,6 +334,29 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+
+  
+  <script>
+    const menuHamburger = document.querySelector(".menu-hamburger")
+    const navLinks = document.querySelector(".nav-links")
+    
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+})
+</script>
+
+<script>
+var dropdown1 = document.querySelector('.dropdown-1');
+
+dropdown1.addEventListener('mouseenter', function() {
+  this.classList.add('show');
+});
+
+dropdown1.addEventListener('mouseleave', function() {
+  this.classList.remove('show');
+});
+</script>
+
 </body>
 
 </html>

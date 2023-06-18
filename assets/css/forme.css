@@ -148,7 +148,7 @@
 /* Styles pour les mobiles */
 @media (max-width: 767px) {
 	#msform {
-		width: 400px;
+		width: auto;
 		margin: 50px auto;
 		text-align: center;
 		position: relative;
@@ -160,7 +160,7 @@
 		margin: 50px auto;
 		text-align: center;
 		position: relative;
-		width: 400px;
+		width: auto;
 		font-weight: bold;
 	}
   /* Alignement vertical des éléments */
@@ -183,7 +183,7 @@
   
   /* Taille du texte */
   .fs-title {
-    font-size: 20px;
+    font-size: 0.9em;
   }
   
   .fs-subtitle {
